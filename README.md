@@ -1,8 +1,6 @@
 # **Traffic Sign Recognition** 
----
 
 ## Setup
----
 
 ### Installation
 
@@ -19,7 +17,6 @@ To speed up training the model, I opted for the GPU-enabled AWS EC2 instance. Fe
 
 
 ## Reflection
----
 
 
 ### 1. Data Set Summary & Exploration

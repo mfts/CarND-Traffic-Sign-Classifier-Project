@@ -201,7 +201,7 @@ It's great that the classifier is not 100% correct, because that means there is 
 [ipython progress]: https://github.com/mfts/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb#Progress
 
 [training set visualization]: ./supporting_images/distribution.png
-[gray scaling]: ./supporting_images/grayscale.png
+[grayscaling]: ./supporting_images/grayscale.png
 [prediction]: ./supporting_images/prediction.png
 [softmax]: ./supporting_images/softmax.png
 [image4]: ./new_images/img1.png "Traffic Sign 1"

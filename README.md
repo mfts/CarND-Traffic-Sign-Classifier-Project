@@ -65,15 +65,18 @@ I started out with the original LeNet convnet as taught during the class but the
 | Convolution 5x5	    | 1x1 stride, valid padding, outputs 10x10x16	|
 | RELU          		|           									|
 | Max pooling			| 2x2 stride, outputs 5x5x16        			|
+
   *Branch out*
   *1. Branch*
 | Input					| 5x5x16 										|
 | Convolution 5x5		| 1x1 stride, valid padding, outputs 1x1x400 	|
 | RELU  				|												|
 | Flatten				| outputs 400									|
+
   *2. Branch*
 | Input					| 5x5x16 										|
 | Flatten				| outputs 400									|
+
   *Concatenate*
 | Concatenate			| inputs 2x400, outputs 800						|
 | Dropout				| keep prob of 50%								|

@@ -188,8 +188,6 @@ The accuracy of the predictions is a consolidated 85.7% compared to an accuracy 
 
 **Certainty of model's predictions**
 
-####3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
-
 The model is 100% sure on all the images except the "Speed Limit (50km/h)" image. I find that very odd because it seems to be one of the clearest images of the seven. I can only explain that there's something wrong with the image and it is not noticable by the naked eye. 
 
 ![alt text][softmax]

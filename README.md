@@ -175,6 +175,7 @@ Here are seven German traffic signs that I found on the web:
 ![alt text][image7] ![alt text][image8] ![alt text][image9]
 ![alt text][image10]
 
+I cropped and resized the images to fit the 32x32x3 dimensions the model requires as input. 
 So all seven images are of good enough quality to be recognized by the trained classifier. However the "No Entry" sign has a sign of triangular shape behind it. So that might be tricky to classify correctly. Also the "Stop" sign has considerable shade making it hard to read even for a human being.
 
 **Model's predictions**
@@ -209,5 +210,5 @@ It's great that the classifier is not 100% correct, because that means there is 
 [image6]: ./new_images/img3.png "Traffic Sign 3"
 [image7]: ./new_images/img4.png "Traffic Sign 4"
 [image8]: ./new_images/img5.png "Traffic Sign 5"
-[image8]: ./new_images/img6.png "Traffic Sign 6"
+[image9]: ./new_images/img6.png "Traffic Sign 6"
 [image10]: ./new_images/img7.png "Traffic Sign 7"

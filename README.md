@@ -97,26 +97,25 @@ However, I tried a lot of variations of these parameters, see [Progress][ipython
 **Discussing the approach**
 
 My final model results were:
-* training set accuracy of ?
 * validation set accuracy of **94.3%**
 * test set accuracy of **93.7%**
 
 I experimented quite a lot with two models – the classic LeNet5 and a modified LeNet described in the afforementioned research paper by Sermanet and LeCun.
 
-- 2017/09/10 89.1%
+- 2017/06/10 89.1%
     - preprocessing: normalization
     - model: LeNet, batch size: 128, epochs: 10, rate: 0.001, mu: 0, sigma: 0.1
 
-- 2017/09/11 91.6%
+- 2017/06/11 91.6%
     - preprocessing: normalization grayscale
     - model: LeNet, batch size: 150, epochs: 10, rate: 0.001, mu: 0, sigma: 0.1
 
-- 2017/09/11 93.3%
+- 2017/06/11 93.3%
     - add dropout to LeNet
     - preprocessing: normalization grayscale
     - model: LeNet, batch size: 150, epochs: 10, rate: 0.001, mu: 0, sigma: 0.1, keep_prob: 0.5
 
-- 2017/09/11 90.8%
+- 2017/06/11 90.8%
     - preprocessing: normalization grayscale
     - modified LeNet according to research paper
         - convolution 32x32x1 to 28x28x6
@@ -133,28 +132,28 @@ I experimented quite a lot with two models – the classic LeNet5 and a modified
         - fully connected 
     - model: ModLeNet, batch size: 128, epochs: 10, rate: 0.001, mu: 0, sigma: 0.1
     
-- 2017/09/11 93.9%
+- 2017/06/11 93.9%
     - add dropout to ModLeNet
     - preprocessing: normalization grayscale
     - model: ModLeNet, batch size: 128, epochs: 10, rate: 0.001, mu: 0, sigma: 0.1, keep_prob: 0.5
     
-- 2017/09/11 94.2%
+- 2017/06/11 94.2%
     - decreased learning rate and increased epochs
     - preprocessing: normalization grayscale
     - model: ModLeNet, batch size: 128, epochs: 20, rate: 0.0005, mu: 0, sigma: 0.1, keep_prob: 0.5
     
-- 2017/09/11 95.2%
+- 2017/06/11 95.2%
     - increased learning rate, increased epochs, increased batch size
     - preprocessing: normalization grayscale
     - model: ModLeNet, batch size: 150, epochs: 30, rate: 0.0008, mu: 0, sigma: 0.1, keep_prob: 0.5
     
-- 2017/09/11 95.3%
+- 2017/06/11 95.3%
     - decreased batch size
     - preprocessing: normalization grayscale
     - model: ModLeNet, batch size: 100, epochs: 30, rate: 0.0008, mu: 0, sigma: 0.1, keep_prob: 0.5
     
     
-- 2017/09/11 94.3%
+- 2017/06/11 94.3%
     - increase learning rate
     - preprocessing: normalization grayscale
     - model: ModLeNet, batch size: 100, epochs: 30, rate: 0.001, mu: 0, sigma: 0.1, keep_prob: 0.5
